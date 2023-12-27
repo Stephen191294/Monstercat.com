@@ -7,7 +7,7 @@ body{
 
 
 
-.section-container{
+.container{
 background-image: url('https://cdx.monstercat.com?encoding=webp&url=https%3A%2F%2Fwww.monstercat.com%2Frelease%2FMCLP017%2Fcover%3F2ee434f2-4499-4c30-a937-4aec2b4ac1fc&width=1024'); 
 background-size: cover;
 background-repeat: no-repeat;
@@ -16,8 +16,10 @@ background-attachment: fixed;
 margin: 0;
 padding: 0;
 background-position: center center;
-backdrop-filter: blur (10px);
+/*filter: blur(10px) brightness(38%);*/
 padding-top: 600px;
+
+
 }
 
 .content{
@@ -33,6 +35,8 @@ padding-top: 600px;
   padding-top: 50px;
   
   
+  
+  
 }
 
 .vertical-text{
@@ -45,6 +49,10 @@ padding-top: 600px;
   font-style: italic;
   font-size: 18px;
   white-space: nowrap;
+}
+
+.highlight{
+  color: #50A584;
 }
 
 .image{
