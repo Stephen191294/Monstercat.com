@@ -2,6 +2,8 @@ body{
   margin: 0;
   padding: 0;
   
+  
+  
 }
 
 button{
@@ -36,6 +38,61 @@ h2{
   color: white;
 }
 
+h3{
+  color: white;
+  font-size: 40px;
+  margin-left: 130px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  letter-spacing: 3px;
+}
+
+h4{
+  font-size: 40px;
+  color:white;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  letter-spacing: 3px;
+}
+
+h5{
+  color:white;
+  font-size: 40px;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  position:absolute;
+  margin-left: 5%;
+}
+
+iframe{
+  margin-top:20%;
+  margin-left: 5%;
+  position:relative;
+  width: 200%;
+  height: 200%;
+}
+.custom-list li{
+  display: flex;
+  margin-bottom: 10px;
+  counter-increment: custom-counter;
+  position: relative;
+
+}
+
+.custom-list li::before{
+  content: counter(custom-counter);
+  display: block;
+  width: 1.5em;
+  text-align: right;
+  margin-right: 50px;
+  margin-bottom: 30px;
+
+}
+
+ol{
+  color: white;
+  font-size: 30px;
+  list-style-type: none;
+  
+}
+
  ul{
   list-style: none;
   position: fixed;
@@ -60,14 +117,14 @@ h2{
 background-image: url('https://cdx.monstercat.com?encoding=webp&url=https%3A%2F%2Fwww.monstercat.com%2Frelease%2FMCLP017%2Fcover%3F2ee434f2-4499-4c30-a937-4aec2b4ac1fc&width=1024'); 
 background-size: cover;
 background-repeat: no-repeat;
-height: 100vh;
+height: 350vh;
 background-attachment: fixed;
 margin: 0;
 padding: 0;
-background-position: center center;
+background-position: center;
 padding-top: 600px;
 filter: blur(5px) brightness(38%);
-mask-image: linear-gradient(180deg, black 50%, transparent 100%);
+
 
 }
 
@@ -77,7 +134,15 @@ mask-image: linear-gradient(180deg, black 50%, transparent 100%);
 }
 
 
+.container3{
+  display: flex;
+  flex-direction: column;
+}
 
+.container3, p{
+  margin-top: -20px;
+  margin-right: 20px;
+}
 
 
 
@@ -93,9 +158,32 @@ mask-image: linear-gradient(180deg, black 50%, transparent 100%);
   height: 70%;
   padding-bottom: 100px;
   padding-top: 50px;
+  margin-bottom: 0;
   z-index: 1;
 }
 
+.custom-size{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: solid 1px white;
+  width: 140px;
+  height: 60px;
+}
+
+.flex-container{
+  display: flex;
+  margin-left:180px ;
+  color: white;
+}
+.flex-box{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: solid 1px white;
+  width: 80px;
+  height: 60px;
+}
 
 .highlight{
   color: #50A584;
@@ -117,10 +205,12 @@ mask-image: linear-gradient(180deg, black 50%, transparent 100%);
 .menu{
   margin-bottom: 30px;
   margin-top: 20px;
+  
 }
 
 .menu1{
   margin-bottom: 15px ;
+  
 }
 
 .monstercat-logo{
@@ -136,6 +226,11 @@ mask-image: linear-gradient(180deg, black 50%, transparent 100%);
   background: none;
 }
 
+.special-text {
+  position: absolute;
+  margin-left: 900px;
+  white-space: nowrap;
+}
 .special-button {
   border: solid  1px white;
   background-color:transparent;
@@ -146,7 +241,7 @@ mask-image: linear-gradient(180deg, black 50%, transparent 100%);
 .vertical-text{
   position: absolute;
   top:57%;
-  left: 103px;
+  left: 162px;
   transform: translate(0, -50%) rotate(180deg);
   writing-mode:vertical-rl;
   color: aliceblue;
