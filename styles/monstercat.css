@@ -55,36 +55,28 @@ h4{
 
 h5{
   color:white;
-  font-size: 40px;
+  font-size: 45px;
   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   position:absolute;
-  margin-left: 5%;
+  margin-left: 6%;
+}
+
+hr{
+  margin-top: 20%;
+  margin-left: 11%;
+  position: relative;
+  width: 150%;
+  size: 2px;
 }
 
 iframe{
   margin-top:20%;
-  margin-left: 5%;
+  margin-left: 10%;
   position:relative;
-  width: 200%;
-  height: 200%;
-}
-.custom-list li{
-  display: flex;
-  margin-bottom: 10px;
-  counter-increment: custom-counter;
-  position: relative;
-
+  width: 150%;
+  height: 150%;
 }
 
-.custom-list li::before{
-  content: counter(custom-counter);
-  display: block;
-  width: 1.5em;
-  text-align: right;
-  margin-right: 50px;
-  margin-bottom: 30px;
-
-}
 
 ol{
   color: white;
@@ -113,11 +105,72 @@ ol{
  
 }
 
+.box-container{
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-left: 20%;
+}
+
+.box{
+  color:white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.column1 .box:nth-child(1),
+.column1 .box:nth-child(2),
+.column1 .box:nth-child(3),
+.column1 .box:nth-child(4),
+.column1 .box:nth-child(5) {
+    font-size: 20px;
+    white-space: nowrap;
+}
+
+.column2 .box:nth-child(1),
+.column2 .box:nth-child(2) {
+    font-size: 20px;
+}
+
+.column3 .box:nth-child(1),
+.column3 .box:nth-child(2),
+.column3 .box:nth-child(3) {
+    font-size: 20px;
+}
+
+.column{
+  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+.custom-list li{
+  display: flex;
+  margin-bottom: 10px;
+  counter-increment: custom-counter;
+  position: relative;
+
+}
+
+.custom-list li::before{
+  content: counter(custom-counter);
+  display: block;
+  width: 1.5em;
+  text-align: right;
+  margin-right: 50px;
+  margin-bottom: 30px;
+
+}
+
+
 .container{
 background-image: url('https://cdx.monstercat.com?encoding=webp&url=https%3A%2F%2Fwww.monstercat.com%2Frelease%2FMCLP017%2Fcover%3F2ee434f2-4499-4c30-a937-4aec2b4ac1fc&width=1024'); 
 background-size: cover;
 background-repeat: no-repeat;
-height: 350vh;
+height: 400vh;
 background-attachment: fixed;
 margin: 0;
 padding: 0;
@@ -133,7 +186,6 @@ filter: blur(5px) brightness(38%);
   flex-direction: column;
 }
 
-
 .container3{
   display: flex;
   flex-direction: column;
@@ -143,7 +195,6 @@ filter: blur(5px) brightness(38%);
   margin-top: -20px;
   margin-right: 20px;
 }
-
 
 
 .content{
@@ -241,7 +292,7 @@ filter: blur(5px) brightness(38%);
 .vertical-text{
   position: absolute;
   top:57%;
-  left: 162px;
+  left: 238px;
   transform: translate(0, -50%) rotate(180deg);
   writing-mode:vertical-rl;
   color: aliceblue;
