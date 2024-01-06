@@ -409,6 +409,8 @@ white-space: nowrap;
 }
 
 
+
+
 .vertical-text{
   position: absolute;
   top:57%;
@@ -428,7 +430,35 @@ white-space: nowrap;
 
 
 
+/* Tooltip container */
+.tooltip {
+  position: relative;
+  display: inline-block;
+  
+}
 
+/* Tooltip text */
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 300px;
+  background-color: beige;
+  color: black;
+  text-align: center;
+  padding: 5px 0;
+  bottom: 100%;
+  left: 50%;
+  margin-left: -60px;
+  white-space: nowrap;
+ 
+  /* Position the tooltip text - see examples below! */
+  position: absolute;
+  z-index: 1;
+}
+
+/* Show the tooltip text when you mouse over the tooltip container */
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
 
 
 
