@@ -16,14 +16,39 @@ button{
   font-size: 20px;
 }
 
+button:hover{
+  height: 50px;
+  width: 200px;
+  border-color: #50A584;
+  border: none;
+   background-color: white;
+   color: black;
+   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+   margin-bottom: 10px;
+   font-size: 20px;
+}
+
 footer{
   display: flex;
   justify-content: space-between;
   align-items: center;
-  position: absolute;
-  margin-top: 5%;
   color: white;
+  margin-top: 30px;
+  margin-left: 25%;
 }
+
+p{
+  white-space: nowrap;
+  display: inline-block;
+}
+
+
+.icons{
+  white-space: nowrap;
+  margin-left: 10% ;
+}
+
+
 
 h1{
   color: white;
@@ -57,6 +82,7 @@ h4{
   color:white;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   letter-spacing: 3px;
+  margin-left: 100px;
 }
 
 h5{
@@ -71,7 +97,7 @@ hr{
   margin-top: 20%;
   margin-left: 11%;
   position: relative;
-  width: 150%;
+  width: 160%;
   size: 2px;
 }
 
@@ -89,7 +115,7 @@ input {
 
 iframe{
   margin-top:20%;
-  margin-left: 10%;
+  margin-left: 15%;
   position:relative;
   width: 150%;
   height: 150%;
@@ -128,8 +154,13 @@ ol{
   margin-left: 30px;
 }
 
+
+
 .boxicon1{
   margin-top: 5px;
+}
+.boxicon2{
+  margin-left: 20px;
 }
 
 .custom-list1{
@@ -141,7 +172,7 @@ ol{
   text-align: start;
   font-size: 18px;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  font-weight: 500;
+  font-weight: 900;
 }
 
 
@@ -197,6 +228,10 @@ filter: blur(5px) brightness(38%);
   margin-right: 20px;
 }
 
+.container4{
+  margin-left: 100px;
+}
+
 
 .content{
   display: flex;
@@ -204,7 +239,6 @@ filter: blur(5px) brightness(38%);
   top:50%;
   left:50%;
   transform: translate(-50%, -50%);
-  text-align: center;
   margin-top: 8%;
   width: 100%;
   height: 70%;
@@ -225,7 +259,7 @@ filter: blur(5px) brightness(38%);
 
 .flex-container{
   display: flex;
-  margin-left:180px ;
+  margin-left:130px ;
   color: white;
 }
 .flex-box{
@@ -307,14 +341,28 @@ filter: blur(5px) brightness(38%);
   width: 70px;
 }
 
+.special-button1:hover{
+  padding: auto;
+  border:none;
+  background-color: white;
+  color: #fff;
+  cursor: pointer;
+  height: 40px;
+  width: 70px;
+}
+
 .special-list1{
   color:white;
   margin-left: 20%;
   white-space: nowrap;
-  
-  
-  
 }
+  
+  .special-list1, li{
+    margin-bottom: 5px;
+    letter-spacing: 2px;
+    
+  }
+
 
 .special-list2{
 color:white;
@@ -322,12 +370,22 @@ margin-left: 20%;
 white-space: nowrap;
 }
 
+.special-list2, li{
+  margin-bottom: 5px;
+  letter-spacing: 2px;
+}
+
 .special-list3{
 color:white;
 margin-left: 20%;
+font-style: italic;
 white-space: nowrap;
 }
 
+.special-list3, li{
+  margin-bottom: 5px;
+  letter-spacing: 2px;
+}
 
 .special-text {
   position: absolute;
@@ -341,10 +399,20 @@ white-space: nowrap;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   width: 150px;
 }
+
+.special-button:hover{
+  border: solid  1px white;
+  background-color:white;
+  font-size: 20px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  width: 150px;
+}
+
+
 .vertical-text{
   position: absolute;
   top:57%;
-  left: 160px;
+  left: 200px;
   transform: translate(0, -50%) rotate(180deg);
   writing-mode:vertical-rl;
   color: aliceblue;
