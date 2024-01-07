@@ -440,22 +440,35 @@ white-space: nowrap;
 /* Tooltip text */
 .tooltip .tooltiptext {
   visibility: hidden;
-  width: 300px;
+  width: 275px;
   background-color: beige;
   color: black;
   text-align: center;
   padding: 5px 0;
-  bottom: 100%;
-  left: 50%;
-  margin-left: -60px;
+  bottom: 160%;
+  left: 30%;
+  top: -40px;
+  margin-left: -137px;
+  border: none;
   white-space: nowrap;
- 
-  /* Position the tooltip text - see examples below! */
   position: absolute;
   z-index: 1;
 }
 
-/* Show the tooltip text when you mouse over the tooltip container */
+
+.tooltip .tooltiptext::after {
+  content: " ";
+  position: absolute;
+  top: 100%; /* At the bottom of the tooltip */
+  left: 50%;
+  margin-left: -5px;
+  border-width: 10px;
+  border-style: solid;
+  border-color: beige transparent transparent transparent;
+}
+
+
+
 .tooltip:hover .tooltiptext {
   visibility: visible;
 }
