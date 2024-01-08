@@ -4,7 +4,9 @@ document.getElementById('menuIcon').addEventListener('click', function() {
 
 function toggleMenu() {
   var menu = document.getElementById('slideOutMenu');
-  var content = document.querySelector('.content');
+  menu.style.right = '0';
+
+  
 
   if (menu.style.width === '250px') {
       menu.style.width = '0';
@@ -13,4 +15,9 @@ function toggleMenu() {
       menu.style.width = '250px';
       content.style.marginRight = '250px';
   }
+}
+
+function closeMenu() {
+  var menu = document.getElementById('slideOutMenu');
+  menu.style.right = '-250px';
 }
