@@ -1,12 +1,18 @@
 
+*{
+  box-sizing: border-box;
+}
 a{
   color: white;
   text-decoration: none;
 }
 
-body{
+body, html{
   margin: 0;
   padding: 0;
+  max-width: 100%;
+  overflow-x: hidden;
+  
   
 }
 
@@ -39,8 +45,10 @@ footer{
   justify-content: space-between;
   align-items: center;
   color: white;
-  margin-top: 30px;
-  margin-left: 25%;
+  margin-top: 0;
+  margin-left: 0;
+  margin-bottom: 0;
+
 }
 
 p{
@@ -86,10 +94,10 @@ h4{
 
 h5{
   color:white;
-  font-size: 45px;
+  font-size: 30px;
   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  position:absolute;
-  margin-left: 6%;
+  margin-left: 20%;
+  
 }
 
 hr{
@@ -113,11 +121,11 @@ input {
 
 
 iframe{
-  margin-top:20%;
-  margin-left: 15%;
-  position:relative;
-  width: 150%;
-  height: 150%;
+  margin-top: 0;
+  margin-left: 40%;
+  
+  width: 700px;
+  height: 400px;
 }
 
 
@@ -151,6 +159,7 @@ ol{
 
 .boxicon{
   margin-left: 30px;
+
 }
 
 
@@ -159,7 +168,7 @@ ol{
   margin-top: 5px;
 }
 .boxicon2{
-  margin-left: 20px;
+  margin-left: 10px;
 }
 
 
@@ -241,7 +250,7 @@ filter: blur(5px) brightness(38%);
   transform: translate(-50%, -50%);
   margin-top: 8%;
   width: 100%;
-  height: 70%;
+  height: 40%;
   padding-bottom: 100px;
   padding-top: 50px;
   margin-bottom: 0;
@@ -324,14 +333,21 @@ filter: blur(5px) brightness(38%);
   margin-left: 6px;
 }
 
+.iframe-container{
+  position: relative;
+  width: 100%;
+}
+
 .image{
   margin-right: 20px;
   margin-left: 140px;
+  max-width: 800px;
 }
 
 .icons{
   white-space: nowrap;
-  margin-left: 10% ;
+  margin-left: 70% ;
+  margin-bottom: 35px;
 }
 
 .menu-container {
@@ -396,12 +412,11 @@ filter: blur(5px) brightness(38%);
   white-space: nowrap;
 }
   
-  .special-list1, li{
+.special-list1, li{
     margin-bottom: 5px;
     letter-spacing: 2px;
     
   }
-
 
 .special-list2{
 color:white;
@@ -458,18 +473,20 @@ white-space: nowrap;
   transition: 0.5s;
   padding-top: 60px;
   z-index: 1;
+  overflow-y: auto;
+  
 }
 
 .slide-out-menu ul {
   list-style-type: none;
-  padding: 0;
   margin: 0;
 }
 
 .slide-out-menu li {
   padding: 15px;
-  text-align: center;
+  text-align: left;
   color: #fff;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 
@@ -518,7 +535,7 @@ white-space: nowrap;
 
 .vertical-text{
   position: absolute;
-  top:64%;
+  top:119%;
   left: 220px;
   transform: translate(0, -50%) rotate(180deg);
   writing-mode:vertical-rl;

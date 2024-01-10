@@ -1,192 +1,218 @@
 <!DOCTYPE html>
-    <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" type="text/CSS" href="styles/monstercat.css">
-        <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
-        <title>Monstercat.com</title>
-    </head>
-    <body>
-        <header>
-            <div id="logo">
-            <img class="monstercat-logo" src="monstercat-logo.webp" alt="logo">
-            </div>
-            <ul id="nav">
-            <li>
-              <div class="menu-icon" id="menuIcon">
-              <box-icon  class="menu" color="white" name='menu'></box-icon></div>
-              <div class="slide-out-menu" id="slideOutMenu">
-                <div class="container5">
-                <img src="slidoutlogomonster.png">
-                <div class="close-button" onclick="closeMenu()">&times;</div>
-                </div>
-            <ul>
-                  <li>MUSIC</li>
-                  <li>ARTISTS</li>
-                  <li>ABOUT</li>
-                  <li>NEWS</li>
-                  <li>EVENTS</li>
-                  <li>PROGRAMMING</li>
-                  <li>GOLD</li>
-                  <li>PARTNERS</li>
-                  <li>PRESS</li>
-                  <li>PLAYER</li>
-                  <li>SHOP</li>
-                  <li>LOST CIVILIZATION</li>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/CSS" href="styles/monstercat.css">
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+    <title>Monstercat.com</title>
+  </head>
+  <body>
+    <header>
+      <div id="logo">
+        <img class="monstercat-logo" src="monstercat-logo.webp" alt="logo">
+      </div>
+      <ul id="nav">
+      <li>
+      <div class="menu-icon" id="menuIcon">
+      <box-icon  class="menu" color="white" name='menu'></box-icon></div>
+      <div class="slide-out-menu" id="slideOutMenu">
+          <div class="container5">
+            <img src="slidoutlogomonster.png" alt="slidoutlogo">
+            <div class="close-button" onclick="closeMenu()">&times;</div>
+          </div>
+          <ul>
+            <li>MUSIC</li>
+            <li>ARTISTS</li>
+            <li>ABOUT</li>
+            <li>NEWS</li>
+            <li>EVENTS</li>
+            <li>PROGRAMMING</li>
+            <li>GOLD</li>
+            <li>PARTNERS</li>
+            <li>PRESS</li>
+            <li>PLAYER</li>
+            <li>SHOP</li>
+            <li>LOST CIVILIZATION</li>
+          </ul>
+      </div>
+      </li>
+      <li>         
+        <a href="https://www.instagram.com/monstercat " target="_blank">
+          <box-icon class="menu1" color="white" type='logo' name='instagram'></box-icon>
+        </a>
+      </li>
+      <li>
+        <a href=" https://www.tiktok.com/@monstercat" target="_blank">
+          <box-icon class="menu1" color="white" type='logo' name='tiktok'></box-icon>
+       </a>
+      </li>
+      <li>
+      <a href="https://twitter.com/monstercat " target="_blank">
+        <box-icon class="menu1" color="white" name='twitter' type='logo'></box-icon>
+      </a>
+      </li>
+      <li>
+      <a href="https://www.twitch.tv/monstercat " target="_blank">
+        <box-icon class="menu1" color="white" type='logo' name='twitch'></box-icon>
+      </a>
+      </li>
+      <li>
+      <a href="https://www.facebook.com/monstercat " target="_blank">
+        <box-icon class="menu1" color="white" type='logo' name='facebook-circle'></box-icon>
+      </a>
+      </li>
+      <li>
+        <a href="https://discord.com/invite/monstercat " target="_blank">
+          <box-icon class="menu1" color="white" type='logo' name='discord'></box-icon>
+        </a>
+      </li>
 
-                </ul>
-            </div>
-          </li>
-
-            <li>         
-              <a href="https://www.instagram.com/monstercat " target="_blank">
-                <box-icon class="menu1" color="white" type='logo' name='instagram'></box-icon>
-              </a>
-            </li>
-            <li>
-            <a href=" https://www.tiktok.com/@monstercat" target="_blank">
-            <box-icon class="menu1" color="white" type='logo' name='tiktok'></box-icon></a>
-            </li>
-            <li>
-            <a href="https://twitter.com/monstercat " target="_blank">
-            <box-icon class="menu1" color="white" name='twitter' type='logo'></box-icon></a>
-            </li>
-            <li>
-            <a href="https://www.twitch.tv/monstercat " target="_blank">
-            <box-icon class="menu1" color="white" type='logo' name='twitch'></box-icon></a>
-            </li>
-            <li>
-            <a href="https://www.facebook.com/monstercat " target="_blank">
-             <box-icon class="menu1" color="white" type='logo' name='facebook-circle'></box-icon></a>
-            </li>
-            <li>
-            <a href="https://discord.com/invite/monstercat " target="_blank">
-            <box-icon class="menu1" color="white" type='logo' name='discord'></box-icon></a>
-            </li>
-
-            <li>
-              <a href=" https://player.monstercat.app/ " target="_blank">
-              <img  class="monstercat-logo-transparent" src="Monstercatplayersmall.png" alt="player-logo">
-            </a>
-            </li>
-            </ul>
-        </header>
-        <div class="container"></div>
-        <div class="content">
-            <div class="container4">
-                <img class="image" src="album.webp" alt="album cover" height="450">
-                <h3>STREAM IT YOUR WAY</h3>
-                <div class="flex-container">
-                  <div class="custom-size"><div class="tooltip"><a href="https://player.monstercat.app/release/MCLP017 " target="_blank">PLAYER</a>
-                    <span class="tooltiptext">STREAM ON MONSTER CAT PLAYER</span></div>
-                  </div>
-                  <div class="flex-box">
-
-                      <div class="tooltip"><a href="https://monstercatmedia.bandcamp.com/album/level-days " target="_blank"><img src="bandcamp-is-an-american-online-music-company-24 (1).png"></a><span class="tooltiptext">STREAM ON BANDCAMP</span>
-                    </div>
-                  </div>
-                  <div class="flex-box">
-                      <div class="tooltip"><a href="https://soundcloud.com/monstercat/sets/conro-level-days " target="_blank"><box-icon name='cloud' color="white"></box-icon></a><span class="tooltiptext">STREAM ON SOUND CLOUD</span>
-                    </div> 
-                  </div>
-                  <div class="flex-box">
-                    <div class="tooltip"><a href="https://music.apple.com/ca/album/level-days/1508531211 " target="_blank"><box-icon type='logo' name='apple' color="white"></box-icon></a><span class="tooltiptext">STREAM ON APPLE MUSIC</span>
-                    </div> 
-                  </div>
-                 <div class="flex-box">
-                    <div class="tooltip"><a href="https://www.youtube.com/watch?v=7nObtWENgxA&list=PLyBpB3ighZijdaq0QsA77iQVvE39gJ9-U&index=3" target="_blank"><box-icon type='logo' name='youtube' color="white"></box-icon></a><span class="tooltiptext">STREAM ON YOUTUBE</span>
-                    </div> 
-                  </div>
-                  <div class="flex-box">
-                    <div class="tooltip"><a href="https://open.spotify.com/playlist/4vM8ONc8HQ9odCaEZTEv89?si=7DJVqY5dTJm6rfylntpAHg&nd=1&dlsi=63cb48d967eb4cd5" target="_blank"><box-icon type='logo' name='spotify' color="white"></box-icon></a><span class="tooltiptext">STREAM ON SPOTIFY</span>
-                    </div> 
-                  </div>
-                </div>
-                <H4>TRACK LIST</H4>
-                <ol class="custom-list">
-                  <li><box-icon class="bx bx-box boxicon1"  name='play' color="White"></box-icon>The Small Things:Conro<span class="special-text">3:35<box-icon class="bx bx-box boxicon" name='share-alt' color="white"></box-icon></span>
-                  </li>
-                  <li><box-icon  class="bx bx-box boxicon1"name='play' color="White"></box-icon>Without Your Love:Conro<span class="special-text">3:09<box-icon class="bx bx-box boxicon" name='share-alt' color="white"></box-icon></span> 
-                  </li>
-                  <li><box-icon class="bx bx-box boxicon1" name='play' color="White"></box-icon>Therapy:Conro<span class="special-text">3:06<box-icon class="bx bx-box boxicon" name='share-alt' color="white"></box-icon></span> 
-                  </li>
-                  <li><box-icon class="bx bx-box boxicon1" name='play' color="White"></box-icon>Fighters:Conro<span class="special-text">3:46<box-icon class="bx bx-box boxicon" name='share-alt' color="white"></box-icon></span> 
-                  </li>
-                  <li><box-icon class="bx bx-box boxicon1" name='play' color="White"></box-icon>Way up:Conro & Nevve<span class="special-text">3:32<box-icon  class="bx bx-box boxicon"name='share-alt' color="white"></box-icon></span> 
-                  </li>
-                  <li><box-icon class="bx bx-box boxicon1" name='play' color="White"></box-icon> Waiting:Conro<span class="special-text">3:07<box-icon class="bx bx-box boxicon"name='share-alt' color="white"></box-icon></span> </li>
-                  <li><box-icon class="bx bx-box boxicon1" name='play' color="White"></box-icon>Dreaming:Conro<span class="special-text"> 2:57<box-icon class="bx bx-box boxicon" name='share-alt' color="white"></box-icon></span> 
-                  </li>
-                  <li><box-icon class="bx bx-box boxicon1" name='play' color="White"></box-icon>Tattoo:Conro<span class="special-text">3:29<box-icon class="bx bx-box boxicon" name='share-alt' color="white"></box-icon></span> 
-                  </li>
-                  <li> <box-icon class="bx bx-box boxicon1" name='play' color="White"></box-icon>Out for the Night:Conro<span class="special-text"> 3:05<box-icon class="bx bx-box boxicon"name='share-alt' color="white"></box-icon></span> </li>
-                  <li><box-icon class="bx bx-box boxicon1"  name='play' color="White"></box-icon>Overdue:Conro<span class="special-text"> 2:48<box-icon class="bx bx-box boxicon" name='share-alt' color="white"></box-icon></span> 
-                  </li>
-                  <li><box-icon class="bx bx-box boxicon1" name='play' color="White"></box-icon>Say It:Conro<span class="special-text"> 3:04<box-icon class="bx bx-box boxicon" name='share-alt' color="white"></box-icon></span> 
-                  </li>
-                  <li><box-icon class="bx bx-box boxicon1" name='play' color="White"></box-icon>Here to Stay:Conro<span class="special-text"> 2:44<box-icon class="bx bx-box boxicon" name='share-alt' color="white"></box-icon></span>
-                  </li>
-                </ol>
-                <h5>MUSIC VIDEO</h5>
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/8UvX79zAt4k" frameborder="0" allowfullscreen></iframe>
-                <hr>
-                <ul class="custom-list1">
-                  <div class="special-list1">
-                    <li><a href="https://www.monstercat.com/about " target="_blank">ABOUT MONSTERCAT</a></li>
-                    <li><a href="https://www.monstercat.com/contact-us " target="_blank">CONTACT US</a></li>
-                    <li><a href="https://www.monstercat.com/careers" target="_blank">CAREERS</a></li>
-                    <li><a href="https://www.monstercat.com/news" target="_blank">NEWS</a></li>
-                    <li><a href="https://www.monstercat.com/press" target="_blank">PRESS</a></li>
-                  </div>
-                  <div class="special-list2">
-                    <li><a href="https://www.monstercat.com/terms-of-service" target="_blank">TERMS OF SERVICE</a></li>
-                    <li><a href="https://www.monstercat.com/privacy-policy"target="_blank">PRIVACY POLICY</a></li>
-                  </div>
-                  <div class="special-list3">
-                    <li><span class="highlight2">MONSTERCAT NEWS</span>
-                    </li>
-                    <li><span class="highlight3">Don't miss a thing, stay up to date<br/> with the latest news from us.</span>
-                    </li>
-
-                    <li>
-                    <div class="form-container">
-                    <input type="email" placeholder="Enter your email">
-                    <button class="special-button1" type="submit"><box-icon name='right-arrow-alt' color="white"></box-icon></button>
-                    </div>
-                    </li>
-
-                  </div>
-                </ul>
-                <hr>
-                <footer>
-                  <p>20011-2004 &copy; Monstercat, All Rights Reserved</p>
-                  <div class="icons">
-                  <box-icon type='logo' name='youtube' color="white"></box-icon> 
-                  <box-icon class="bx bx-box boxicon2" type='logo' name='tiktok'color="white"></box-icon>
-                  <box-icon class="bx bx-box boxicon2" type='logo' name='twitter'color="white"></box-icon>
-                  <box-icon class="bx bx-box boxicon2" type='logo' name='spotify'color="white"></box-icon>
-                  <box-icon class="bx bx-box boxicon2" type='logo' name='apple'color="white"></box-icon> 
-                  <box-icon class="bx bx-box boxicon2" type='logo' name='twitch'color="white"></box-icon>
-                  <box-icon class="bx bx-box boxicon2"  type='logo' name='facebook-circle' color="white"></box-icon>
-                  <box-icon class="bx bx-box boxicon2" type='logo' name='discord-alt' color="white"></box-icon>
-                 
-                </footer>
-            </div>
-            <div class="container2">
-              <div class="container3">
-              <h1>LEVEL DAYS</h1><p class="highlight1">Conro</p>
-              </div>
-              <div class="button-container">
-              <button><box-icon name='play-circle' color="white" padding="auto"></box-icon> 
-                <span class="highlight4" >Listen Now</span></button><button class="special-button"><box-icon name='share-alt' color="white"></box-icon><span class="highlight4">Share</span></button>
-              </div>
-            </div>
-            <div class="vertical-text">
-              <p><span class="highlight">Instinct</span>-Released May 22, 2020</p>
-            </div>
-
+      <li>
+        <a href=" https://player.monstercat.app/ " target="_blank">
+          <img  class="monstercat-logo-transparent" src="Monstercatplayersmall.png" alt="player-logo">
+        </a>
+      </li>
+      </ul>
+    </header>
+    <div class="container"></div>
+    <div class="content">
+        <div class="container4">
+        <img class="image" src="album.webp" alt="album cover" height="450">
+        <h3>STREAM IT YOUR WAY</h3>
+        <div class="flex-container">
+          <div class="custom-size"><div class="tooltip">
+            <a href="https://player.monstercat.app/release/MCLP017 " target="_blank">PLAYER</a>
+            <span class="tooltiptext">STREAM ON MONSTER CAT PLAYER</span></div>
         </div>
-        <script src="mostercat.js"></script>
-    </body>
+        <div class="flex-box">
+            <div class="tooltip"><a href="https://monstercatmedia.bandcamp.com/album/level-days " target="_blank"><img src="bandcamplogo.png" alt="bandcamp"></a><span class="tooltiptext">STREAM ON BANDCAMP</span>
+          </div>
+        </div>
+        <div class="flex-box">
+        <div class="tooltip">
+          <a href="https://soundcloud.com/monstercat/sets/conro-level-days " target="_blank"><box-icon name='cloud' color="white"></box-icon>
+          </a><span class="tooltiptext">STREAM ON SOUND CLOUD</span>
+        </div> 
+        </div>
+        <div class="flex-box">
+          <div class="tooltip"><a href="https://music.apple.com/ca/album/level-days/1508531211 " target="_blank"><box-icon type='logo' name='apple' color="white"></box-icon></a><span class="tooltiptext">STREAM ON APPLE MUSIC</span>
+          </div> 
+        </div>
+        <div class="flex-box">
+          <div class="tooltip"><a href="https://www.youtube.com/watch?v=7nObtWENgxA&list=PLyBpB3ighZijdaq0QsA77iQVvE39gJ9-U&index=3" target="_blank"><box-icon type='logo' name='youtube' color="white"></box-icon></a><span class="tooltiptext">STREAM ON YOUTUBE</span>
+          </div> 
+        </div>
+        <div class="flex-box">
+          <div class="tooltip"><a href="https://open.spotify.com/playlist/4vM8ONc8HQ9odCaEZTEv89?si=7DJVqY5dTJm6rfylntpAHg&nd=1&dlsi=63cb48d967eb4cd5" target="_blank"><box-icon type='logo' name='spotify' color="white"></box-icon></a><span class="tooltiptext">STREAM ON SPOTIFY</span>
+          </div> 
+        </div>
+        </div>
+        <H4>TRACK LIST</H4>
+        <ol class="custom-list">
+          <li><box-icon class="bx bx-box boxicon1"  name='play' color="White"></box-icon>The Small Things:Conro<span class="special-text">3:35<box-icon class="bx bx-box boxicon" name='share-alt' color="white"></box-icon></span>
+          </li>
+          <li><box-icon  class="bx bx-box boxicon1" name='play' color="White"></box-icon>Without Your Love:Conro<span class="special-text">3:09<box-icon class="bx bx-box boxicon" name='share-alt' color="white"></box-icon></span> 
+          </li>
+          <li><box-icon class="bx bx-box boxicon1" name='play' color="White"></box-icon>Therapy:Conro<span class="special-text">3:06<box-icon class="bx bx-box boxicon" name='share-alt' color="white"></box-icon></span> 
+          </li>
+          <li><box-icon class="bx bx-box boxicon1" name='play' color="White"></box-icon>Fighters:Conro<span class="special-text">3:46<box-icon class="bx bx-box boxicon" name='share-alt' color="white"></box-icon></span> 
+          </li>
+          <li><box-icon class="bx bx-box boxicon1" name='play' color="White"></box-icon>Way up:Conro & Nevve<span class="special-text">3:32<box-icon  class="bx bx-box boxicon" name='share-alt' color="white"></box-icon></span> 
+          </li>
+          <li><box-icon class="bx bx-box boxicon1" name='play' color="White"></box-icon> Waiting:Conro<span class="special-text">3:07<box-icon class="bx bx-box boxicon" name='share-alt' color="white"></box-icon></span>
+          </li>
+          <li>
+          <box-icon class="bx bx-box boxicon1" name='play' color="White"></box-icon>Dreaming:Conro<span class="special-text"> 2:57<box-icon class="bx bx-box boxicon" name='share-alt' color="white"></box-icon></span> 
+          </li>
+          <li>
+          <box-icon class="bx bx-box boxicon1" name='play' color="White"></box-icon>Tattoo:Conro<span class="special-text">3:29<box-icon class="bx bx-box boxicon"  name='share-alt' color="white"></box-icon></span> 
+          </li>
+          <li> 
+          <box-icon class="bx bx-box boxicon1" name='play' color="White"></box-icon>Out for the Night:Conro<span class="special-text"> 3:05<box-icon class="bx bx-box boxicon" name='share-alt' color="white"></box-icon></span> 
+          </li>
+          <li><box-icon class="bx bx-box boxicon1"  name='play' color="White"></box-icon>Overdue:Conro<span class="special-text"> 2:48<box-icon class="bx bx-box boxicon" name='share-alt' color="white"></box-icon></span> 
+          </li>
+          <li><box-icon class="bx bx-box boxicon1" name='play' color="White"></box-icon>Say It:Conro<span class="special-text"> 3:04<box-icon class="bx bx-box boxicon" name='share-alt' color="white"></box-icon></span> 
+          </li>
+          <li><box-icon class="bx bx-box boxicon1" name='play' color="White"></box-icon>Here to Stay:Conro<span class="special-text"> 2:44<box-icon class="bx bx-box boxicon" name='share-alt' color="white"></box-icon></span>
+          </li>
+        </ol>
+        <h5>MUSIC VIDEO</h5>
+        <div class="iframe-container">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/8UvX79zAt4k"  allowfullscreen></iframe>
+        </div>
+        <hr>
+        <ul class="custom-list1" >
+          <div class="special-list1">
+          <li>
+            <a href="https://www.monstercat.com/about " target="_blank">ABOUT MONSTERCAT</a>
+          </li>
+          <li>
+            <a href="https://www.monstercat.com/contact-us " target="_blank">CONTACT US</a>
+          </li>
+          <li>
+            <a href="https://www.monstercat.com/careers" target="_blank">CAREERS</a>
+          </li>
+          <li>
+            <a href="https://www.monstercat.com/news" target="_blank">NEWS</a>
+          </li>
+          <li>
+            <a href="https://www.monstercat.com/press" target="_blank">PRESS</a>
+          </li>
+          </div>
+          <div class="special-list2">
+          <li>
+            <a href="https://www.monstercat.com/terms-of-service" target="_blank">TERMS OF SERVICE</a>
+          </li>
+          <li>
+            <a href="https://www.monstercat.com/privacy-policy" target="_blank">PRIVACY POLICY</a>
+          </li>
+          </div>
+          <div class="special-list3">
+            <li><span class="highlight2">MONSTERCAT NEWS</span>
+            </li>
+            <li><span class="highlight3">Don't miss a thing, stay up to date<br/> with the latest news from us.</span>
+            </li>
+
+            <li>
+              <div class="form-container">
+                <input type="email" placeholder="Enter your email">
+                <button class="special-button1" type="submit"><box-icon name='right-arrow-alt' color="white"></box-icon></button>
+              </div>
+            </li>
+
+          </div>
+        </ul>
+        <hr>
+        <footer>
+          <p>20011-2004 &copy; Monstercat, All Rights Reserved</p>
+          <div class="icons">
+            <box-icon type='logo' name='youtube' color="white"></box-icon> 
+            <box-icon class="bx bx-box boxicon2" type='logo' name='tiktok' color="white"></box-icon>
+            <box-icon class="bx bx-box boxicon2" type='logo' name='twitter' color="white"></box-icon>
+            <box-icon class="bx bx-box boxicon2" type='logo' name='spotify' color="white"></box-icon>
+            <box-icon class="bx bx-box boxicon2" type='logo' name='apple' color="white"></box-icon> 
+            <box-icon class="bx bx-box boxicon2" type='logo' name='twitch' color="white"></box-icon>
+            <box-icon class="bx bx-box boxicon2"  type='logo' name='facebook-circle' color="white"></box-icon>
+            <box-icon class="bx bx-box boxicon2" type='logo' name='discord-alt' color="white"></box-icon>
+          </div>
+        </footer>
+        </div>
+        <div class="container2">
+          <div class="container3">
+            <h1>LEVEL DAYS</h1><p class="highlight1">Conro</p>
+          </div>
+          <div class="button-container">
+            <button><box-icon name='play-circle' color="white" padding="auto"></box-icon> 
+            <span class="highlight4" >Listen Now</span></button><button class="special-button"><box-icon name='share-alt' color="white"></box-icon><span class="highlight4">Share</span></button>
+          </div>
+        </div>
+        <div class="vertical-text">
+          <p><span class="highlight">Instinct</span>-Released May 22, 2020</p>
+        </div>
+
+    </div>
+    <script src="mostercat.js"></script>
+  </body>
 </html>
